@@ -1,6 +1,6 @@
 package lesson_2.homework;
 
-//названия классов с большой буквы без нижних подчеркиваний. А так, все хорошо - +
+//названия классов с большой буквы без нижних подчеркиваний. А так, все хорошо - +. Но не нашла test branch (Task 3)
 public class les_2_homework {
     public static void main(String[] args) {
         System.out.println("  Hello, Liza! " + "This is my homework: ");
