@@ -12,6 +12,7 @@ public class TableDistance {
 
             for (int inch = 1; inch <=20; inch++) {
                 double cm;
+                //этот if не нужен. сразу умножай
                 if (inch == 1) {
                     cm = inchToCm;
                 } else {
