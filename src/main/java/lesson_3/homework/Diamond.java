@@ -14,6 +14,7 @@ Task 8
    *
  */
 // я сразу начала рисовать ромб, запуталась и затупила........
+//посмотри решение у Артема либо кого-то другого
 public class Diamond {
         public static void main(String[] args) {
             int size = 5;
