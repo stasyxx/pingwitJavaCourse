@@ -9,20 +9,23 @@ Task 7
 public class NumbersEvenOrNotSum {
     public static void main (String[] args) {
 
+        //sum1->sumEven
         int sum1 = 0;
+        //четные и нечетные лучше в 1 цикле сделать
         for ( int number = 0; number <= 100; number++) {
             if (number % 2 == 0) {
                 sum1 += number;
             }
         }
         System.out.println("Сумма четных чисел от 1 до 100: " + sum1);
-        int sum2 = 0;
+        int sum2 = 0;//sumOdd
         for (int number =0; number <= 100; number ++) {
             if (number %2 != 0) {
                 sum2 += number;
             }
         }
         System.out.println ("Сумма нечетных чисел от 1 до 100: " + sum2);
+        //totalSumm
         int sum3 = sum1 + sum2;
         System.out.println ("Сумма всех чисел: " + sum3);
     }
