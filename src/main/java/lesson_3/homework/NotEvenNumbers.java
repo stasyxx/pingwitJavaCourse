@@ -12,6 +12,7 @@ public class NotEvenNumbers {
                 sum += number;
             }
         }
+        //ctrl+alt+l
         System.out.println ( sum );
     }
 }
