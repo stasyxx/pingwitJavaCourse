@@ -8,6 +8,7 @@ public class EvenNumbers {
         public static void main (String[] args) {
             System.out.println("Четные числа от 2 до 100:");
             for ( int number =0 ; number<=100; number++) {
+                    //много лишнего. переменная не нужна. первого условия ддостаточно. а можно просто вместо ++ -> +=2
                 boolean isEven = false;
                 if (number % 2 ==0 ) {
                     isEven = true;
