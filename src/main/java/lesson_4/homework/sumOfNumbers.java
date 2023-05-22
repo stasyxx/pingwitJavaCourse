@@ -1,7 +1,7 @@
 package lesson_4.homework;
 
     import java.util.Scanner;
-
+//1. Форматируй код!!!!!!! 2. Названия классов с большой буквы
     public class sumOfNumbers {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
@@ -48,7 +48,7 @@ package lesson_4.homework;
 
             return sum;
         }
-
+        //тотал = четные + нечетные, сумму которых ты уже посчитала
         public static int calculateTotalSum(int start, int end) {
             int sum = 0;
             int number = start;
