@@ -6,6 +6,7 @@ import java.util.Scanner;
 Task 1
 Вычислить: 1+2+4+8+...+256
  */
+//форматируй код!
 public class Sum {
     public static void main(String[] args) {
         int limitPower = 8;
