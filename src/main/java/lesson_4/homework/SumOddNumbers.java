@@ -7,6 +7,7 @@ Task 3
 // какие бы числа я не вводила, выводит 0, не могу понять почему.
 // поняла, что из-за Start, но не поняла, что с ним делать
 
+//вроде не должно нули выводить
 import java.util.Scanner;
 public class SumOddNumbers {
         public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class SumOddNumbers {
             System.out.print("Enter second number: ");
             int end = scanner.nextInt();
 
-            if (start < 1 || end > 99) {
+            if (start < 1 || end > 99) {//аналогично с 2 и 100
                 System.out.println("Oops... you are out of the range");
             } else {
                 int sum = calculateSumOfOddNumbers(start, end);
@@ -33,12 +34,12 @@ public class SumOddNumbers {
             while (number <= end) {
                 if (number % 2 != 0) {
                     sum += number;
-
+                //пустая строка
                 }
                 number++;
 
             }
-
+             //пустая строка
             return sum;
         }
     }
