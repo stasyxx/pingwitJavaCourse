@@ -15,11 +15,12 @@ public class EvenNumbers {
         System.out.print("Enter end of the range: ");
         int end = scanner.nextInt();
 
+        //что такое 2 и 100? Это лежит в переменной пользотеля. Если ты хочешь ввести лимиты, то создай соответствующие переменные :) 
         if (start < 2 || end > 100) {
             System.out.println("Oops... You are out of the range");
         } else {
             System.out.println("Even numbers from " + start + " to " + end + ":");
-
+            //пустая строка
             printEvenNumbers(start, end);
         }
     }
@@ -31,7 +32,7 @@ public class EvenNumbers {
             if (number % 2 == 0) {
                 System.out.println(number);
             }
-
+            //пустая строка
             number++;
         }
     }
