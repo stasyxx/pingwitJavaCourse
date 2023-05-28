@@ -11,6 +11,7 @@ Task 3
 названия полей класса и их значения.
 
  */
+//суть задания была в другом - создать массив Person[]
 public class ArrayPerson {
     public static void main(String[] args) {
         int amount = amountOfPeople();
