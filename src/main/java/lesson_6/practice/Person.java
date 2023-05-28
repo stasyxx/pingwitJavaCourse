@@ -9,6 +9,7 @@ Task 2
 public class Person {
     String name;
     byte age;
+    public static String text = "Hello from static";
     public Person(String name, byte age) {
         this.name = name;
         this.age = age;
@@ -20,6 +21,9 @@ public class Person {
     }
     {
         System.out.println("Hello, I have created new class element");
+    }
+    static {
+        System.out.println(text);
     }
 
     @Override
