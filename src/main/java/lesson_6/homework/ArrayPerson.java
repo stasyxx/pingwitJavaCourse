@@ -24,21 +24,23 @@ public class ArrayPerson {
         }
         System.out.print(Arrays.toString(array));
     }
+
     public static int amountOfPeople() {
         Scanner scan = new Scanner(System.in);
         System.out.println("How many people do you want to add?");
         int amount = scan.nextInt();
         return amount;
     }
-    public static String newPerson() {
-            Scanner scan = new Scanner(System.in);
-            System.out.println("Enter name of the person: ");
-            String name = scan.next();
-            System.out.println("Enter age of the person" + name );
-            int age = scan.nextInt();
-            Person person = new Person(name, (byte) age);
-            String nameAge = person.toString();
-            return nameAge;
 
-}
+    public static String newPerson() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter name of the person: ");
+        String name = scan.next();
+        System.out.println("Enter age of the person" + name);
+        int age = scan.nextInt();
+        Person person = new Person(name, (byte) age);
+        String nameAge = person.toString();
+        return nameAge;
+
+    }
 }

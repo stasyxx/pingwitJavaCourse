@@ -1,4 +1,5 @@
 package lesson_6.practice;
+
 /*
 Task 2
 Создайте класс, у которого будут поля имя и возраст.
@@ -10,18 +11,22 @@ public class Person {
     String name;
     byte age;
     public static String text = "Hello from static";
+
     public Person(String name, byte age) {
         this.name = name;
         this.age = age;
 
     }
+
     public Person() {
         this.name = "Default";
         this.age = 10;
     }
+
     {
         System.out.println("Hello, I have created new class element");
     }
+
     static {
         System.out.println(text);
     }
