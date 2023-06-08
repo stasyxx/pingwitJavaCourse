@@ -24,6 +24,7 @@ public class MainWarehouse {
         Warehouse warehouse = new Warehouse(boxes);
 
     }
+    //логика должна быть в Warehouse
     static void getBoxes() {
         int currentBox = 0;
         int length = 3;
