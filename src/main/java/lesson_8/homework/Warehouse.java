@@ -21,7 +21,7 @@ public class Warehouse {
         return boxes.clone();
     }
 
-
+//тут нужно было реализовывать метод next()
 }
 
 
