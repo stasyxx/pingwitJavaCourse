@@ -1,4 +1,4 @@
-package lesson_9.homework;
+package lesson_9.homework.task2;
 /*
 Task 2(abstract class)
 Есть два типа домов - городская многоэтажка и загородный дом.

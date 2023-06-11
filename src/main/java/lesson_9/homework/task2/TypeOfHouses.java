@@ -1,4 +1,4 @@
-package lesson_9.homework;
+package lesson_9.homework.task2;
 
 public class TypeOfHouses extends AbstractHouse{
     private int floorNumber;
