@@ -19,7 +19,9 @@ P.S. имена методов условные, ваши могут отлич�
 Помните, что поля класса должны быть приватными
  */
 public class Auto {
+    //тут должен быть класс Engine
     private boolean engine;
+    //тут должен быть класс Transmission
     private int transmition;
     private int maxTransition = 7;
     private int minTransition = 0;
