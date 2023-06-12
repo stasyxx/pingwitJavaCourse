@@ -1,5 +1,5 @@
 package lesson_9.homework.task2;
-
+//почитай комменты в д/з у Лизы. К тебе будут такие же.
 public class MainHouses {
     public static void main(String[] args) {
 
