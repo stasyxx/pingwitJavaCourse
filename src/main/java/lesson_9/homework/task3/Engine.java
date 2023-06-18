@@ -8,7 +8,8 @@ public class Engine {
         } else {
             System.out.println("Turning on the engine");
         };
-    };
+        return null;
+    }
     //что значит 'boolean engine'? У тебя метод возвращает String в сигнатуре, а логика void.
     private String turnOffEngine(boolean engine) {
         if (engine = false) {
@@ -16,6 +17,6 @@ public class Engine {
             } else {
             System.out.println("Turning off the engine");
         }
-
+        return null;
     };
 }
