@@ -12,7 +12,7 @@ public abstract class Vegetable {
         this.calories = calories;
         this.weight = weight;
     }
-
+    //этот метод не должен быть в овощах
     public abstract void salad();
 
     public double getCalories() {
