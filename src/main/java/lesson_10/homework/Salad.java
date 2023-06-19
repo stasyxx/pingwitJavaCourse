@@ -2,8 +2,9 @@ package lesson_10.homework;
 
 public class Salad {
     private Vegetable[] vegetables;
+    //зачем тебе это поле в классе? Оно никак не характеризует его
     private double sumOfCalories;
-    private double sumOfWeight;
+    private double sumOfWeight;//аналогично
     public Salad(Vegetable[] vegetables) {
         this.vegetables = vegetables;
     }
