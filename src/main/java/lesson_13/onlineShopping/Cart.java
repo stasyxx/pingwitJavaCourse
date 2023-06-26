@@ -6,4 +6,7 @@ public class Cart {
     public Cart(Product[] products) {
         this.products = products;
     }
+    public void addProduct(Product product) {
+
+    }
 }
