@@ -4,7 +4,7 @@ import lesson_14.classwork.point_1.*;
 
 public class LegoColorMain {
     public static void main(String[] args) throws IllegalAccessException {
-        Lego lego = new Lego("", 5, LegoColor.PURPLE);
+        Lego lego = new Lego("something", 5, LegoColor.BLUE);
         LegoAnnotationService[] services = new LegoAnnotationService[]{
                 new NotEmptyValidationService(),
                 new SizeValidationService(),
