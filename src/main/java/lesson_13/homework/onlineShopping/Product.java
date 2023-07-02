@@ -1,4 +1,4 @@
-package lesson_13.onlineShopping;
+package lesson_13.homework.onlineShopping;
 /*
 Task 2
 Создайте простой онлайн магазин используя ООП.

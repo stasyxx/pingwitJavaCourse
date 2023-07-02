@@ -1,4 +1,4 @@
-package lesson_13.onlineShopping;
+package lesson_13.homework.onlineShopping;
 
 public class Cart {
     private Product[] products;
