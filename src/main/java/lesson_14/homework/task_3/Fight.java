@@ -1,7 +1,7 @@
 package lesson_14.homework.task_3;
 
 import java.util.Scanner;
-
+//+
 public class Fight {
     private Gladiator userGladiator;
     private Gladiator opponentGladiator;
@@ -18,6 +18,7 @@ public class Fight {
         scanner.nextLine();
 
         int round = 1;
+        //такой цикл - нехорошая практика. Можно было переменные health завести и уже от этого отталкиваться, но ок!
         while (true) {
             System.out.println("Round " + round);
 
