@@ -27,6 +27,7 @@ Task 3(*)
 
 Игрок, который пропустил 4 удара проигрывает.
  */
+//+
 public class Gladiator {
     private String name;
     private static final int HEALTH = 4;
