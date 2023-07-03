@@ -24,10 +24,10 @@ public class ColorAnnotationValidationService implements LegoAnnotationService {
                         if(fieldValue == color) {
                             validationResult = new ValidationResult(false, field.getName() + " is invalid");
                             break;
-
+//убирай пустые строки
                         }
                     };
-
+//тут тоже
                 }
             }
         }
