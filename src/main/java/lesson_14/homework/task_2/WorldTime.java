@@ -11,7 +11,7 @@ import java.time.*;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TimeZone;
-
+//посмотри у Лизы, много закоментрованного кода
 public class WorldTime {
     public static void main(String[] args) {
         LocalDate now = LocalDate.now();
