@@ -7,9 +7,7 @@ package lesson_14.homework.task_2;
 - Лондон 14.00
 и т.д. Города выберите сами.
  */
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 //+
@@ -23,16 +21,16 @@ import java.util.Scanner;
             String timeZoneInput = scanner.next();
 
 
-            LocalDateTime localDateTime = LocalDateTime.parse(timeInput, DateTimeFormatter.ofPattern("HH:mm"));
+            LocalTime time = LocalTime.parse(timeInput);
 
 
             ZoneId userTimeZone = ZoneId.of(timeZoneInput);
-            ZonedDateTime userZonedDateTime = ZonedDateTime.of(localDateTime, userTimeZone);
+            ZonedDateTime cityTime = LocalDateTime.of(LocalDate.now(), time).atZone(userTimeZone);
 
 
             System.out.println("Мировое время:");
-            System.out.println("Анкара: " + userZonedDateTime.withZoneSameInstant(ZoneId.of("Europe/Istanbul")));
-            System.out.println("Лондон: " + userZonedDateTime.withZoneSameInstant(ZoneId.of("Europe/London")));
+            System.out.println("Анкара: " + cityTime.withZoneSameInstant(ZoneId.of("Europe/Istanbul")));
+            System.out.println("Лондон: " + cityTime.withZoneSameInstant(ZoneId.of("Europe/London")));
 
 
             scanner.close();
