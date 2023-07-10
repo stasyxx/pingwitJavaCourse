@@ -7,13 +7,13 @@ Task 2
 import java.io.File;
 
 public class WholeCatalogueStructure {
-    private static final String PATH = "D:\\!Java Course\\Homework 1";
+    private static final String PATH = "D:\\!Java Course\\Homework 1";//на будущее - никогда не успользуй абсолютный путь в коде, только относительный
 
     public static void main(String[] args) {
         File folder = new File(PATH);
         listOfFiles(folder);
     }
-
+//+
     public static void listOfFiles(File folder) {
         File[] listOfFiles = folder.listFiles();
         for (int i = 0; i < listOfFiles.length; i++) {
