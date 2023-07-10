@@ -28,7 +28,8 @@ public class SecretMessage {
         try (BufferedReader br = new BufferedReader(new FileReader(message))) {
             String line;
             while ((line = br.readLine()) != null){
-                if(line.equals("Can you see it?")) {
+                if(line.equals("Can you see it?")) {//строка будет и так последней, ибо у тебя append = true у FileWriter, т.е equals
+                    //необязательно.
                     System.out.println(line);
                 }
             }
