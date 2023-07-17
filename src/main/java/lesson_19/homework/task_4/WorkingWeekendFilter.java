@@ -10,7 +10,7 @@ Task 4
 //название класса+отдельные методы
 public class WorkingWeekendFilter {
     public static void main(String[] args) {
-
+//пусто
         List<String> employeeListSat = new ArrayList<>();
         employeeListSat.add("Sara");
         employeeListSat.add("Conor");
@@ -36,7 +36,7 @@ public class WorkingWeekendFilter {
         }
         employeeListSat = commonList;
         System.out.println("List of people after filtering: " + employeeListSat);
-
+//пусто
     }
-
+//пусто
 }
