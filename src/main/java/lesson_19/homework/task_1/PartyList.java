@@ -12,16 +12,17 @@ Task 1
  */
 public class PartyList {
     public static void main(String[] args) {
+        //в отдельный метод?
         List<String> guestList = new ArrayList<>();
         guestList.add("Whitehouse");
         guestList.add("Depp");
         guestList.add("Evans");
         guestList.add("Holmes");
-
+        //отдельный метод?
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please, enter your surename: ");
         String userSurename = scanner.nextLine();
-
+        //отдельный метод?
         if (guestList.contains(userSurename)) {
             System.out.println("Welcome, " + userSurename + "!");
         } else {
