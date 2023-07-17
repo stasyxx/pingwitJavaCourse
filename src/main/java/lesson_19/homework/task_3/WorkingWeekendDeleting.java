@@ -7,9 +7,11 @@ import java.util.List;
 Task 3
 Есть две коллекции, нужно удалить из первой те, которые есть во второй
  */
+//название класса непонятное
+//отдельные методы создавай
 public class WorkingWeekendDeleting {
     public static void main(String[] args) {
-
+//пустая строка?
         List<String> employeeListSat = new ArrayList<>();
         employeeListSat.add("Sara");
         employeeListSat.add("Conor");
@@ -17,7 +19,7 @@ public class WorkingWeekendDeleting {
         employeeListSat.add("Daisy");
         employeeListSat.add("Evan");
         System.out.println("List of people on Saturday: " + employeeListSat);
-
+//пустота
 
         List<String> employeeListSun = new ArrayList<>();
         employeeListSun.add("Erik");
@@ -27,7 +29,7 @@ public class WorkingWeekendDeleting {
         employeeListSun.add("Evan");
         System.out.println("List of people on Sunday: " + employeeListSun);
 
-        employeeListSat.removeAll(employeeListSun);
+        employeeListSat.removeAll(employeeListSun);//+
         System.out.println("List of people after deleting: " + employeeListSat);
 
     }
