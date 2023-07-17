@@ -7,6 +7,7 @@ import java.util.List;
 Task 4
 Есть две коллекции, нужно оставить в первой только те, которые есть во второй
  */
+//название класса+отдельные методы
 public class WorkingWeekendFilter {
     public static void main(String[] args) {
 
@@ -26,6 +27,7 @@ public class WorkingWeekendFilter {
         employeeListSun.add("Evan");
         System.out.println("List of people on Sunday: " + employeeListSun);
 
+        //retainAll() метод
         List<String> commonList = new ArrayList<>();
         for (String employee : employeeListSat) {
             if (employeeListSun.contains(employee)) {
