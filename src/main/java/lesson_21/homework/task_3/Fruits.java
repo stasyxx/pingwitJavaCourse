@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Fruits implements Comparable {
     private String name;
-    private double kg;
-    private String type;
+    private double kg;//weight
+    private String type;//а почему бы не использовать enum?
 
     public Fruits(String name, double kg, String type) {
         this.name = name;
@@ -39,7 +39,7 @@ public class Fruits implements Comparable {
 
     @Override
     public int compareTo(Object o) {
-        return 0;
+        return 0;//они у тебя все равны всегда? Это то, что ты действительно хочешь?
     }
 
     @Override
