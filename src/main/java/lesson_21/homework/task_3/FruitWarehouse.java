@@ -26,6 +26,7 @@ public class FruitWarehouse {
         warehouse.add(new Fruits("coconut", 1.2, "tropical"));
         warehouse.add(new Fruits("orange", 2.0, "citrus"));
 
+        //мы не проходили Stream API :)
         Map<String, List<Fruits>> fruitsByType = warehouse.stream().collect(Collectors.groupingBy(Fruits::getType));
         for (Map.Entry<String, List<Fruits>> itemType : fruitsByType.entrySet()) {
             System.out.println(itemType.getKey());
