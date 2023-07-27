@@ -5,7 +5,9 @@ import java.util.TreeSet;
 Task 1
 Есть TreeSet чисел, нужно отсортировать его в обратном порядке
  */
-
+/*не совсем. вместо создания 2-й коллекции, можно использовать Comparator:
+1) Comparator<Object> reversedComparator = Collections.reverseOrder(); Set<Integer> treeReversed = new TreeSet<>(reversedComparator);
+*/
 public class ReverseSortedTreeSet {
     public static void main(String[] args) {
         TreeSet<Integer> treeAdd = new TreeSet<>();
