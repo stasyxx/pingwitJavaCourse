@@ -1,0 +1,12 @@
+package lesson_23.homework.task_2;
+
+import java.util.Comparator;
+
+public class MaxLengthComparator implements Comparator<String> {
+
+    @Override
+    public int compare(String o1, String o2) {
+        return o2.length() - o1.length();
+
+    }
+}
