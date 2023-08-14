@@ -6,7 +6,7 @@ Task 2 (limit, reduce)
 
 import java.util.Arrays;
 import java.util.List;
-//+
+//ты нашла сумму, а не произвведение :)
 public class SumNumbers {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
