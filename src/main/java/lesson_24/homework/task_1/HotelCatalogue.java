@@ -18,7 +18,7 @@ public class HotelCatalogue {
 
         Optional<Hotel> result = hotels.stream()
                 .max(Comparator.comparing(Hotel::rate));
-        System.out.println(result);
+        System.out.println(result);//Optional - просто обертка. Лучше значение печатай. Использую, например, ifPresent
 
     }
 }
