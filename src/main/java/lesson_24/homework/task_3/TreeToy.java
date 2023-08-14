@@ -1,7 +1,7 @@
 package lesson_24.homework.task_3;
 
 import java.util.Objects;
-
+//можно было record сделать
 public class TreeToy {
     private String name;
     private boolean hasRope;
