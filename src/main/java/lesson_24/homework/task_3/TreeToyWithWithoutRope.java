@@ -18,6 +18,7 @@ public class TreeToyWithWithoutRope {
         toyList.add(new TreeToy("Candy", false));
         toyList.add(new TreeToy("Ribbon", false));
 
+        //надо узнать у всех ли есть крепеж, а не проверить каждый. Для этого allMatch метод у Stream
         for (TreeToy toy : toyList) {
             if (toy.isHasRope()) {
                 System.out.println(toy.getName() + " has a hook for the tree.");
