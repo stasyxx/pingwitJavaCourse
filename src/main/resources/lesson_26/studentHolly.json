@@ -1,0 +1,17 @@
+{
+  "name": "Holly",
+  "surname": "Lightly",
+  "groupNum": 1356,
+  "address": {
+    "city": "Warsaw",
+    "street": "S. Broniewskiego",
+    "houseNum": 78,
+    "flatNum": 23
+  },
+  "contactInfo": {
+    "phoneNumber": 627900781,
+    "email": "hollyLightly@gmail.com"
+  },
+  "favSubjects": ["Music", "Math"]
+
+}

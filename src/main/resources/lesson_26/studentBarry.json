@@ -1,0 +1,17 @@
+{
+  "name": "Barry",
+  "surname": "Howell",
+  "groupNum": 1357,
+  "address": {
+    "city": "Wroclaw",
+    "street": "Jasna",
+    "houseNum": 36,
+    "flatNum": 12
+  },
+  "contactInfo": {
+    "phoneNumber": 524916080,
+    "email": "barryHowell@gmail.com"
+  },
+  "favSubjects": ["English", "Music"]
+
+}
