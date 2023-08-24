@@ -18,7 +18,7 @@ public class Student {
     private String surname;
     private int groupNum;
     private Contact contactInfo;
-
+//лишние пустые строки
     private List<Subject> favSubjects;
 
     public Student(String name, String surname, int groupNum, Contact contactInfo, List<Subject> favSubjects) {
