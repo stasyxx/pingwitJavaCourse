@@ -1,0 +1,18 @@
+{
+  "name": "test_1b7e9e8d9494",
+  "surname": "test_ebdc4a32b55d",
+  "groupNum": 37,
+  "contactInfo": {
+    "phoneNumber": 75,
+    "email": "test_7c7045ff2010",
+    "address": {
+      "city": "test_dab46afe2102",
+      "street": "test_96af8366cbb3",
+      "houseNum": 47,
+      "flatNum": 18
+    }
+  },
+  "favSubjects": [
+    "Pe"
+  ]
+}
