@@ -17,10 +17,10 @@ import java.util.stream.Collectors;
 
 
 public class Main {
-    private static final String FILE_PATH_JACK = "src/main/resources/lesson_26/studentJack.json";//lesson_26/studentJack.json
-    private static final String FILE_PATH_BARRY = "src/main/resources/lesson_26/studentBarry.json";//lesson_26/studentBarry.json
-    private static final String FILE_PATH_HOLLY = "src/main/resources/lesson_26/studentHolly.json";//lesson_26/studentHolly.json
-    private static final String FILE_PATH_SORTED_GROUP = "src/main/resources/lesson_26/sortedGroup.json";//lesson_26/sortedGroup.json
+    private static final String FILE_PATH_JACK = "lesson_26/studentJack.json";//lesson_26/studentJack.json
+    private static final String FILE_PATH_BARRY = "lesson_26/studentBarry.json";//lesson_26/studentBarry.json
+    private static final String FILE_PATH_HOLLY = "lesson_26/studentHolly.json";//lesson_26/studentHolly.json
+    private static final String FILE_PATH_SORTED_GROUP = "lesson_26/sortedGroup.json";//lesson_26/sortedGroup.json
 
     public static void main(String[] args) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();

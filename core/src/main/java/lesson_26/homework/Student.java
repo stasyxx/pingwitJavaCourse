@@ -21,6 +21,9 @@ public class Student {
 //лишние пустые строки
     private List<Subject> favSubjects;
 
+    public Student() {
+    }
+
     public Student(String name, String surname, int groupNum, Contact contactInfo, List<Subject> favSubjects) {
         this.name = name;
         this.surname = surname;

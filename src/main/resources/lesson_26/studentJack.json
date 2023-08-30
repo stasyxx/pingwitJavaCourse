@@ -1,17 +1,18 @@
 {
-  "name": "Jack",
-  "surname": "Sparrow",
-  "groupNum": 1356,
-  "address": {
-    "city": "Warsaw",
-    "street": "A. Magiera",
-    "houseNum": 8,
-    "flatNum": 31
-  },
+  "name": "test_1b7e9e8d9494",
+  "surname": "test_ebdc4a32b55d",
+  "groupNum": 37,
   "contactInfo": {
-    "phoneNumber": 324916789,
-    "email": "jackSparrow@gmail.com"
+    "phoneNumber": 75,
+    "email": "test_7c7045ff2010",
+    "address": {
+      "city": "test_dab46afe2102",
+      "street": "test_96af8366cbb3",
+      "houseNum": 47,
+      "flatNum": 18
+    }
   },
-  "favSubjects": ["English", "Art"]
-
+  "favSubjects": [
+    "Pe"
+  ]
 }
