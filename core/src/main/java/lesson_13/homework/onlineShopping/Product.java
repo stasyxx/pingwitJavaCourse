@@ -6,7 +6,7 @@ Task 2
 В магазине, например, есть 3 продукта: Apple (у него еще есть доп поле - цвет),
 Computer(доп поля -  String processor, int ram), Coffee (+ String type).
 Есть класс Cart который имеет методы addProduct, removeProduct, getTotalPrice, getTotalQuantity, printCart
-Есть класс User который имеет поля name, age, cart.
+Есть класс Employee который имеет поля name, age, cart.
 
 Возможный пример вывода программы:
 Vasya has 13 products in cart

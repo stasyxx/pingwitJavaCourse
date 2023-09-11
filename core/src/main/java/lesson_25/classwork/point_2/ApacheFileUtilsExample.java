@@ -8,8 +8,8 @@ import org.apache.commons.io.FileUtils;
 
 public class ApacheFileUtilsExample {
 
-    private static final String FILE_PATH = "src/main/java/lesson_25/classwork/point_2/eminem_lose_yourself.txt";
-    private static final String FILE_PATH_TO_CREATE = "src/main/java/lesson_25/classwork/point_2/create.txt";
+    private static final String FILE_PATH = "core/src/main/java/lesson_25/classwork/point_2/eminem_lose_yourself.txt";
+    private static final String FILE_PATH_TO_CREATE = "core/src/main/java/lesson_25/classwork/point_2/create.txt";
 
     public static void main(String[] args) throws IOException {
         File file = new File(FILE_PATH);
